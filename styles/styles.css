@@ -593,3 +593,29 @@ p {
     align-items: center; 
     gap: 20px; 
 }
+
+ .footer p { 
+    color: #dce1ec; 
+    font-size: 10px; 
+}
+
+.social-links { 
+    display: flex; 
+    gap: 12px; 
+    align-items: center; 
+}
+
+.social-links a { 
+    width: 28px; 
+    height: 28px; 
+    background: #fff; 
+    border-radius: 50%; 
+    display: grid; 
+    place-items: center; 
+}
+
+.social-links img { 
+    width: 16px; 
+    height: 16px; 
+    object-fit: contain; 
+}
