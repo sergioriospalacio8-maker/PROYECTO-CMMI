@@ -369,3 +369,32 @@ p {
     padding: 85px 0; 
     text-align: center; 
 }
+
+ .steps-grid { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 35px; 
+    text-align: left; 
+    margin-top: 48px; 
+}
+
+.steps-grid article { 
+    padding: 24px; 
+    border: 1px solid #edf0f4; 
+    border-radius: 8px; 
+}
+
+.steps-grid span { 
+    color: #00bd91; 
+    font-size: 25px; 
+    font-weight: 800; 
+}
+
+.steps-grid h3 { 
+    font-size: 16px; 
+    margin: 12px 0; 
+}
+
+.steps-grid p { 
+    font-size: 12px; 
+}
