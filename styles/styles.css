@@ -123,3 +123,26 @@ p {
     transform: translateY(-2px); 
     opacity: .92; 
 }
+
+ .button-green { 
+    color: #10213d; 
+    background: #00e9ad; 
+}
+.button-dark { 
+    color: #fff; 
+    background: #182442; 
+}
+
+.button-outline { 
+    color: #182442; border: 1px solid #182442; 
+    background: transparent; 
+}
+
+.section-white { 
+    background: #fff; 
+}
+
+.features { 
+    padding: 78px 0 90px; 
+    text-align: center; 
+}
