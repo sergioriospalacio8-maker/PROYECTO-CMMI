@@ -398,3 +398,26 @@ p {
 .steps-grid p { 
     font-size: 12px; 
 }
+
+ .quality-section { 
+    padding: 80px 0; 
+    background: #eef0f4; 
+}
+
+.quality-content { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; gap: 9%; 
+    align-items: center; 
+}
+
+.eyebrow-dark { 
+    color: #00a982; 
+}
+
+.quality-content h2 { 
+    margin-bottom: 18px; 
+}
+
+.quality-content > div:first-child p:not(.eyebrow) { 
+    font-size: 13px; 
+}
