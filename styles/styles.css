@@ -543,3 +543,32 @@ p {
     font-size: 11px; 
     margin: 10px 0; 
 }
+
+.contact-form label { 
+    display: block; 
+    color: #00e9ad; 
+    font-size: 11px; 
+    margin-bottom: 15px; 
+}
+
+.form-pair { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.contact-form input, .contact-form textarea { 
+    width: 100%; 
+    margin-top: 8px; 
+    padding: 10px 12px; 
+    border: 1px solid #00bd91; 
+    border-radius: 2px; 
+    background: transparent; 
+    color: #fff; 
+    font: inherit; 
+    outline: none; 
+}
+
+.contact-form input:focus, .contact-form textarea:focus { 
+    border-color: #fff; 
+}
