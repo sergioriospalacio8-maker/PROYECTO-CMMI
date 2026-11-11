@@ -492,3 +492,26 @@ p {
     color: #17213b; 
     margin-bottom: 18px; 
 }
+
+ .implementation-copy p { 
+    color: #164d4b; 
+    margin-bottom: 25px; 
+    font-size: 13px; 
+}
+
+.implementation-list { 
+    list-style: none; 
+}
+
+.implementation-list li { 
+    padding: 13px 0; 
+    border-bottom: 1px solid rgba(23, 33, 59, .2); 
+    color: #17213b; 
+    font-size: 12px; 
+}
+
+.implementation-list b { 
+    display: inline-block; 
+    margin-right: 18px; 
+    font-size: 16px; 
+}
