@@ -216,3 +216,33 @@ p {
     justify-content: space-between; 
     gap: 8%; 
 }
+
+ .inside-copy { 
+    flex: 1; 
+    max-width: 470px; 
+}
+
+.inside-copy h2 { 
+    margin-bottom: 18px; 
+}
+
+.inside-copy p { 
+    margin-bottom: 22px; 
+    font-size: 12px; 
+    color:#000000;
+}
+
+.device-image { 
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-width: 0; 
+}
+
+.device-image img { 
+    width: min(100%, 470px); 
+    max-height: 300px; 
+    object-fit: contain; 
+    filter: drop-shadow(0 12px 14px rgba(10, 20, 40, .12)); 
+}
