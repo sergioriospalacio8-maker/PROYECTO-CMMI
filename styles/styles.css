@@ -17,3 +17,22 @@ body {
   font-size: 13px;
   line-height: 1.7;
 }
+
+img { 
+    display: block; 
+    max-width: 100%; 
+}
+
+a { 
+    text-decoration: none; 
+}
+
+.container { 
+    width: min(1120px, 86%); 
+    margin: 0 auto; 
+}
+
+h1, h2, h3 { 
+    line-height: 1.25; 
+    font-weight: 700; 
+}
