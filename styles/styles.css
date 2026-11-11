@@ -494,7 +494,7 @@ p {
 }
 
  .implementation-copy p { 
-    color: #164d4b; 
+    color: #000000; 
     margin-bottom: 25px; 
     font-size: 13px; 
 }
@@ -506,7 +506,7 @@ p {
 .implementation-list li { 
     padding: 13px 0; 
     border-bottom: 1px solid rgba(23, 33, 59, .2); 
-    color: #17213b; 
+    color: #000000; 
     font-size: 12px; 
 }
 
