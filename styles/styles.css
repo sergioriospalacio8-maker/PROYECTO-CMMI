@@ -340,3 +340,32 @@ p {
 .level-card-featured .level-name, .level-card-featured .level-description, .level-card-featured li { 
     color: #e1e6f1; 
 }
+
+ .level-note { 
+    max-width: 800px; 
+    margin: 28px auto 0; 
+    font-size: 11px; 
+}
+
+.logo-strip { 
+    background: #eef0f4; 
+    padding: 45px 0; 
+}
+
+.logo-row { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 28px; 
+}
+
+.logo-row img { 
+    width: 12%; 
+    max-height: 48px; 
+    object-fit: contain; 
+}
+
+.details { 
+    padding: 85px 0; 
+    text-align: center; 
+}
