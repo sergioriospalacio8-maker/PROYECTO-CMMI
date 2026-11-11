@@ -455,3 +455,40 @@ p {
     gap: 22px; 
     margin-top: 45px; 
 }
+
+.metrics-grid article { 
+    padding: 28px 18px; 
+    background: #f7f8fa;
+     border-radius: 5px; 
+ }  
+
+.metrics-grid strong { 
+    color: #00bd91; 
+    font-size: 34px; 
+    font-weight: 800; 
+}
+
+.metrics-grid h3 { 
+    font-size: 14px; 
+    margin: 10px 0; 
+}
+
+.metrics-grid p { 
+    font-size: 11px; 
+}
+
+.implementation { 
+    background: #00e9ad; 
+    padding: 75px 0; 
+}
+
+.implementation-inner { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; gap: 10%; 
+    align-items: center; 
+}
+
+.implementation-copy h2 { 
+    color: #17213b; 
+    margin-bottom: 18px; 
+}
