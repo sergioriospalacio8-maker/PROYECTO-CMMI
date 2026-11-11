@@ -172,3 +172,47 @@ p {
     place-items: center; 
     position: relative; 
 }
+
+ .feature-illustration::before {
+  content: ''; 
+  position: absolute; 
+  width: 105px; 
+  height: 48px; 
+  background: #00e9ad;
+  clip-path: polygon(0 20%, 100% 0, 75% 100%, 18% 75%);
+}
+.feature-illustration img { 
+    width: 70px; 
+    height: 70px; 
+    object-fit: contain; 
+    position: relative; 
+    z-index: 1; 
+}
+
+.feature-card h3 { 
+    font-size: 16px; 
+    margin-bottom: 9px; 
+}
+
+.feature-card p { 
+    font-size: 11px; 
+    max-width: 270px; 
+    margin: auto; 
+    color:#000000;
+}
+
+.inside-section { 
+    overflow: hidden; 
+}
+
+.inside-top { 
+    background: #fff; 
+    padding: 50px 0 0px; 
+}
+
+.inside-row { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 8%; 
+}
