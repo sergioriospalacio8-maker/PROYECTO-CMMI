@@ -36,3 +36,30 @@ h1, h2, h3 {
     line-height: 1.25; 
     font-weight: 700; 
 }
+
+ h2 { 
+    font-size: clamp(25px, 3vw, 34px); 
+}
+
+p { 
+    color: #000000; 
+}
+
+.hero {
+  min-height: 590px;
+  position: relative;
+  color: #fff;
+  background: url('../images/banner-bk.jpg') center/cover no-repeat;
+}
+.hero-shade, .contact-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(14, 25, 52, .45);
+}
+.top-nav, .hero-content { position: relative; z-index: 1; }
+.top-nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
