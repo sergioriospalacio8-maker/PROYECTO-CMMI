@@ -421,3 +421,37 @@ p {
 .quality-content > div:first-child p:not(.eyebrow) { 
     font-size: 13px; 
 }
+
+.quality-list article { 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 17px 0; 
+    border-bottom: 1px solid #d8dce4; 
+}
+
+.quality-list img { 
+    width: 58px; 
+    height: 58px; 
+    object-fit: contain; 
+}
+
+.quality-list h3 { 
+    font-size: 15px; 
+    margin-bottom: 5px; 
+}
+
+.quality-list p { 
+    font-size: 11px; 
+}
+
+.metrics { 
+    padding: 85px 0; 
+    text-align: center; 
+}
+.metrics-grid { 
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 22px; 
+    margin-top: 45px; 
+}
