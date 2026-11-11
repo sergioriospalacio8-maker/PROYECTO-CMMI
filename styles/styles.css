@@ -246,3 +246,27 @@ p {
     object-fit: contain; 
     filter: drop-shadow(0 12px 14px rgba(10, 20, 40, .12)); 
 }
+
+ .device-image-top { 
+    transform: rotate(-2deg); 
+}
+
+.inside-bottom {
+  color: #17213b;
+  background: #00e9ad;
+  padding: 85px 0 75px;
+  margin-top: -0px;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+}
+
+.inside-row-reverse { 
+    padding-top: 35px; 
+}
+
+.inside-bottom .inside-copy h2 { 
+    color: #17213b; 
+}
+
+.inside-bottom .inside-copy p { 
+    color: #164d4b; 
+}
