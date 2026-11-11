@@ -515,3 +515,31 @@ p {
     margin-right: 18px; 
     font-size: 16px; 
 }
+
+ .contact { 
+    position: relative; 
+    padding: 75px 0; color: #fff; 
+    background: url('../images/contact-bk.jpg') center/cover no-repeat; 
+}
+
+.contact-overlay { 
+    background: rgba(13, 25, 53, .30); 
+}
+
+.contact-grid { 
+    position: relative; 
+    z-index: 1; display: grid; 
+    grid-template-columns: .85fr 1.15fr; 
+    gap: 10%; 
+    align-items: center; 
+}
+
+.contact-info h2 { 
+    margin-bottom: 18px; 
+}
+
+.contact-info p { 
+    color: #dce1ec; 
+    font-size: 11px; 
+    margin: 10px 0; 
+}
